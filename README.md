@@ -1,2 +1,3 @@
 # knex-first-or-fail
-Ad knex('users').firstOrFail()
+
+Add `knex('users').firstOrFail()`. works with `insert` and `returning` too.

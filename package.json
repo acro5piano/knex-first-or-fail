@@ -1,0 +1,20 @@
+{
+  "name": "knex-first-or-fail",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "git@github.com:acro5piano/knex-first-or-fail",
+  "author": "gosho-kazuya <ketsume0211@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist/*.js",
+    "dist/*.map",
+    "dist/*.ts",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "knex": "^0.95.9",
+    "typescript": "^4.3.5"
+  }
+}
