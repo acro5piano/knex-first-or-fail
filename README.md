@@ -6,7 +6,7 @@ Add `knex('users').firstOrFail()`.  Plug and play.
 
 - Includes the TypeScript type definition.
 - Works with `select` and `returning`.
-- 
+- Under 20 LOC
 
 # Install
 
