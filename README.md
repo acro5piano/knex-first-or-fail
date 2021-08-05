@@ -10,13 +10,13 @@ Add `knex('users').firstOrFail()`.  Plug and play.
 
 # Install
 
-```
+```sh
 yarn add knex-first-or-fail
 ```
 
 # Usage
 
-```typescirpt
+```typescript
 import 'knex-first-or-fail';
 
 import createKnex from 'knex';
@@ -27,6 +27,6 @@ export const knex = createKnex(dbConfig);
 And you are ready to go.
 
 
-```typescirpt
+```typescript
 knex('users').where({ id: 1 }).firstOrFail()
 ```
